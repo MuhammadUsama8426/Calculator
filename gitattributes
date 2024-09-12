@@ -1,3 +1,9 @@
+git rm .gitattributes
+git commit -m "Remove .gitattributes"
+git push
+
+# Re-add the file
+echo "*.dart linguist-language=Dart" > .gitattributes
 git add .gitattributes
-git commit -m "Add .gitattributes to set Dart as the primary language"
+git commit -m "Re-add .gitattributes"
 git push
