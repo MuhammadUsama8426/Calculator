@@ -1,0 +1,3 @@
+git add .gitattributes
+git commit -m "Add .gitattributes to set Dart as the primary language"
+git push
